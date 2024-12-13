@@ -1,4 +1,4 @@
----MySQL Workbench를 이용하여 java와 연동하여 출력하기---
+                   ---MySQL Workbench를 이용하여 java와 연동하여 출력하기---
 <hr>
 </br>1.MySQL와 이클립스 연동을 확인 합니다.
 
@@ -6,7 +6,7 @@
 </br>https://blog.naver.com/swoh1227/221058019495
 
 
-</br>==확인용 DB==
+                           ==확인용 DB==
 </br>sampledb{id,name,dept}
 
 	public class jdbc {
@@ -25,7 +25,7 @@
 <hr>
 2.연동이 확인 되면 새로운DB테이블을 만들어 학번,이름,학과,학번 내용을 입력합니다. 
 </br>
-</br>==DB: student==
+                             ==DB: student==
 </br>테이블 이름:new_table {id varchar(4) pk,   //학번
                     </br>  name varchar(4),    //이름
                     </br>  dept varchar(10),   //학과
@@ -50,16 +50,17 @@ insert into new_table(id,name,dept,grade) values ('1008','허지현','보건행�
 insert into new_table(id,name,dept,grade) values ('1009','이혜민','전기과','1');</br>
 insert into new_table(id,name,dept,grade) values ('1010','최은호','경찰경호학과','2');
 <hr>
-3.DB테이블이 완성이 되면 이클립스에서 학번을 입력하면 이름,학과,학년이 출력되는 프로그램을 작성합니다.
+</br>3.DB테이블이 완성이 되면 이클립스에서 학번을 입력하면 이름,학과,학년이 출력되는 프로그램을 작성합니다.</br>
 
-// 사용자로부터 학번 입력받기
+</br>// 사용자로부터 학번 입력받기</br>
 String studentId = JOptionPane.showInputDialog(null, "4자리 학번을 입력하세요:", "학생 정보 조회", JOptionPane.QUESTION_MESSAGE);</br></br>
                              입력받는 화면</br>
                        ![3](https://github.com/user-attachments/assets/597f9ef5-c8c2-49dc-86d8-967da92d1927)
 
 // 결과 출력
- JOptionPane.showMessageDialog(null, "이름: " + name + "\n학과: " + dept + "\n학년: " + grade,"학생 정보", JOptionPane.INFORMATION_MESSAGE);
-
+ JOptionPane.showMessageDialog(null, "이름: " + name + "\n학과: " + dept + "\n학년: " + grade,"학생 정보", JOptionPane.INFORMATION_MESSAGE);</br>
+                            실행화면</br>
+            ![GIFMaker_me](https://github.com/user-attachments/assets/d7c26173-e43b-4d53-bf2e-c8e9250f906b)
 
  
 
