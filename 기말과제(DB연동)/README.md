@@ -1,4 +1,4 @@
-![GIFMaker_me (1)](https://github.com/user-attachments/assets/5b77874b-9b20-493c-b342-c6f18bd473e0)                   ---MySQL Workbench를 이용하여 java와 연동하여 출력하기---
+                 ---MySQL Workbench를 이용하여 java와 연동하여 출력하기---
 <hr>
 </br>1.MySQL와 이클립스 연동을 확인 합니다.
 
