@@ -1,4 +1,4 @@
-                   ---MySQL Workbench를 이용하여 java와 연동하여 출력하기---
+![GIFMaker_me (1)](https://github.com/user-attachments/assets/5b77874b-9b20-493c-b342-c6f18bd473e0)                   ---MySQL Workbench를 이용하여 java와 연동하여 출력하기---
 <hr>
 </br>1.MySQL와 이클립스 연동을 확인 합니다.
 
@@ -60,9 +60,8 @@ String studentId = JOptionPane.showInputDialog(null, "4자리 학번을 입력�
 // 결과 출력
  JOptionPane.showMessageDialog(null, "이름: " + name + "\n학과: " + dept + "\n학년: " + grade,"학생 정보", JOptionPane.INFORMATION_MESSAGE);</br>
                             실행화면</br>
-            ![GIFMaker_me](https://github.com/user-attachments/assets/d7c26173-e43b-4d53-bf2e-c8e9250f906b)
+            ![2024-12-14 18-40-46](https://github.com/user-attachments/assets/cc3f8075-2971-42b7-815d-2f7e6a085c83)
 
- 
 
 
 
